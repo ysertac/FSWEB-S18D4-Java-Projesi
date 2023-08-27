@@ -34,8 +34,8 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
  *  ```controller```, ```service```, ```dao```, ```entity```,  isminde 4 adet daha paket oluşturunuz.
  * ```entity``` paketinin altına ```Address```, ```Customer```, ```Account``` isimli üç tane sınıf oluşturunuz.
  * ```Address```, ```Customer``` ve ```Account``` sınıfları project lombok annotationlarını kullanarak oluşturulmalılar.
- * ```Address``` ve ```Customer``` sınıflarının birbirleri arasındaki ilişkiyi tanımlayan annotaionları kullanın.
- * ```Customer``` ve ```Account``` sınıflarının birbirleri arasındaki ilişkiyi tanımlayan annotaionları kullanın.
+ * ```Address``` ve ```Customer``` sınıflarının birbirleri arasındaki ilişkiyi tanımlayan annotationları kullanın.(One-to-One)
+ * ```Customer``` ve ```Account``` sınıflarının birbirleri arasındaki ilişkiyi tanımlayan annotationları kullanın.(One-to-Many)
 
  ### Görev 3
  * ```AddressController```, ```CustomerController```, ```AccountController``` isimli 3 tane controller yazmalısınız.
